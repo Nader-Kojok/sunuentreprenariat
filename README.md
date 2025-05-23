@@ -1,37 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sunu Entreprenariat
 
-## Getting Started
+Une plateforme moderne pour soutenir et développer l'entrepreneuriat au Sénégal.
 
-First, run the development server:
+## À propos du projet
 
+Sunu Entreprenariat est une application web développée avec Next.js qui vise à connecter, former et accompagner les entrepreneurs sénégalais dans leur parcours de création et de développement d'entreprise.
+
+## Technologies utilisées
+
+- [Next.js](https://nextjs.org) - Framework React pour le développement web
+- [TypeScript](https://www.typescriptlang.org/) - Pour un développement plus robuste
+- [TailwindCSS](https://tailwindcss.com) - Pour le styling
+- [Shadcn/ui](https://ui.shadcn.com) - Pour les composants UI
+- [Geist](https://vercel.com/font) - Police de caractères optimisée
+
+## Démarrage
+
+1. Clonez le repository :
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone [URL_DU_REPO]
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Installez les dépendances :
+```bash
+npm install
+# ou
+yarn install
+# ou
+pnpm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Lancez le serveur de développement :
+```bash
+npm run dev
+# ou
+yarn dev
+# ou
+pnpm dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur pour voir l'application.
 
-## Learn More
+## Structure du projet
 
-To learn more about Next.js, take a look at the following resources:
+- `/app` - Pages et routes de l'application
+- `/components` - Composants React réutilisables
+- `/lib` - Utilitaires et configurations
+- `/public` - Assets statiques
+- `/styles` - Styles globaux
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contribution
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Les contributions sont les bienvenues ! N'hésitez pas à :
+1. Fork le projet
+2. Créer une branche pour votre fonctionnalité
+3. Commiter vos changements
+4. Pousser vers la branche
+5. Ouvrir une Pull Request
 
-## Deploy on Vercel
+## Licence
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Ce projet est sous licence [MIT](LICENSE).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# sunuentreprenariat
+## Contact
+
+Pour toute question ou suggestion, n'hésitez pas à nous contacter à [EMAIL].
